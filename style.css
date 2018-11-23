@@ -28,11 +28,10 @@ img {
   font-size: 30px;
 }
 
-.grow {
-  /* credit: https://stackoverflow.com/questions/27441404/how-to-expand-a-div-and-its-contents-on-hover */
+.project {
   padding: 5px 5px 5px 5px;
   border-radius: 20px;
-  height: 49px;
+  height: 230px;
   width: 22%;
   margin: 5px 2% 5px 1%;
   float: left;
@@ -42,6 +41,8 @@ img {
   text-align: center;
   overflow: hidden;
 }
-.grow:hover {
-  height: 230px;
+
+.project a {
+  text-decoration: none;
+  color: purple;
 }
