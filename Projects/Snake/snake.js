@@ -113,7 +113,9 @@ function reset() { // reset the location of the snake
 	// }
 
 	// potentially have to update this later to create a global scoreboard
-	alert("score: " + positions.length);
+	if (positions.length > 20) {
+		alert("score: " + positions.length);
+	}
 
 	positions = new Array();
 	positions[0] = [500, 300];
