@@ -1,3 +1,56 @@
+// Your web app's Firebase configuration
+var firebaseConfig = {
+apiKey: "AIzaSyAamB59l0vbHUpnry3zfauUdw-MDluSDmw",
+authDomain: "snake-scoreboard-8dd39.firebaseapp.com",
+databaseURL: "https://snake-scoreboard-8dd39.firebaseio.com",
+projectId: "snake-scoreboard-8dd39",
+storageBucket: "snake-scoreboard-8dd39.appspot.com",
+messagingSenderId: "562165429932",
+appId: "1:562165429932:web:da66645c6dd3ee5e39d109",
+measurementId: "G-QQWC4MV29G"
+};
+// Initialize Firebase
+firebase.initializeApp(firebaseConfig);
+firebase.analytics();
+
+const auth = firebase.auth;
+
+function userExists(name) {
+	firebase.database().ref("User").orderByChild("name").equalTo(name).once("value", snapshot => {
+		return snapshot.exists();
+	})
+}
+
+function writeData() {
+	if (userExists(name)) {
+		firebase.database().ref("User").update({
+			name: {
+				name: name,
+				score: positions.length
+			}
+		});	
+	} else {
+		alert("user does not exist");
+		firebase.database().ref("User").push({
+			name: {
+				name: name,
+				score: positions.length
+			}
+		});
+	}
+}
+
+function readData() {
+	firebase.database().ref("/").once("value", function(snapshot) {
+		snapshot.forEach(function(childSnapshot)
+		{
+			var childKey = childSnapshot.key;
+			var childData = childSnapshot.val();
+			alert("name: " + childData["name"] + ", " + childData["score"]);
+		})
+	})
+}
+
 // define the canvas
 var canvas;
 var canvasContext;
@@ -9,10 +62,12 @@ var xSpeed = 0;
 var ySpeed = 0;
 var edge = 20;
 
+var name = "";
+
 // parameters of the apple
-var appleX = -100;
-var appleY = -100;
- 
+var appleX = 100;
+var appleY = 100;
+
 // holds each new position of the snake after eating the apple
 var positions = [];
 positions[0] = [xPos, yPos];
@@ -25,15 +80,14 @@ window.onload = function() { // when the page loads
 	// define the canvas to the webpage
 	canvas = document.getElementById('gameCanvas');
 	canvasContext = canvas.getContext('2d');
-	canvasContext.canvas.width = window.innerWidth;
-	canvasContext.canvas.height = window.innerHeight;
 
 	// key events are handled
 	window.addEventListener('keydown', keyInput, false);
 
+	name = window.prompt("Enter your name: ");
+
 	// run 30 frames per second
 	var framesPerSecond = 30;
-	reset();
 	setInterval(updateAll, 1000/framesPerSecond);
 }
 
@@ -108,10 +162,11 @@ function moveAll() { // update the speed of the snake
 }
 
 function reset() { // reset the location of the snake
-	// set the length of the snake back to 1
-	if (positions.length > 20) {
-		alert("Score: " + positions.length);
+	if (positions.length > 5) {
+		writeData();
 	}
+
+	// set the length of the snake back to 1
 	positions = new Array();
 	positions[0] = [500, 300];
 
@@ -120,7 +175,8 @@ function reset() { // reset the location of the snake
 	ySpeed = 0;
 
 	// have a defined location for the apple
-	updateApple();
+	appleX = 100;
+	appleY = 100;
 
 	// it will not be moving
 }
@@ -157,9 +213,8 @@ function drawAll() { // update the location of everything in the canvas
 
 	// borders
 	colorRect(0, 0, canvas.width, edge, 'white');
-	colorRect(0, 10 * Math.ceil((canvas.height - edge)/10 - 1), canvas.width, 10 * Math.ceil(edge/10) + 10, 'white');
-	colorRect(0, 0, Math.ceil());
 	colorRect(0, 0, edge, canvas.height, 'white');
+	colorRect(0, canvas.height - edge - 4, canvas.width, edge + 4, 'white');
 	colorRect(canvas.width - edge, 0, edge, canvas.height, 'white');
 
 	// apple
@@ -171,7 +226,7 @@ function drawAll() { // update the location of everything in the canvas
 
 function isLegal() { // check if the given location of the snake is legal
 	// check if the snake head is within the borders
-	if (xPos < Math.ceil(edge/10) + 10) {
+	if (xPos < edge) {
 		return false;
 	}
 
@@ -183,7 +238,7 @@ function isLegal() { // check if the given location of the snake is legal
 		return false;
 	}
 
-	if (yPos + edge > 10 * Math.ceil((canvas.height - edge)/10 - 1)) {
+	if (yPos + edge > canvas.height - edge - 4) {
 		return false;
 	}
 
@@ -215,6 +270,5 @@ function colorRect(topLeftX,topLeftY, boxWidth,boxHeight, fillColor) {
 // helper function to draw text
 function colorText(showWords, textX,textY, fillColor) {
 	canvasContext.fillStyle = fillColor;
-	canvasContext.font = "23px Arial";
 	canvasContext.fillText(showWords, textX, textY);
 }
