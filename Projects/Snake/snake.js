@@ -77,7 +77,7 @@ window.onload = function() { // when the page loads
 	updateApple();
 
 	// run 30 frames per second
-	var framesPerSecond = 30;
+	var framesPerSecond = 25;
 	setInterval(updateAll, 1000/framesPerSecond);
 	ref.on("value", gotData, errData);
 }
