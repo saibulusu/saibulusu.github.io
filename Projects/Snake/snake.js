@@ -13,41 +13,42 @@ measurementId: "G-QQWC4MV29G"
 firebase.initializeApp(firebaseConfig);
 firebase.analytics();
 
-const auth = firebase.auth;
-
-function userExists(name) {
-	firebase.database().ref("User").orderByChild("name").equalTo(name).once("value", snapshot => {
-		return snapshot.exists();
-	})
-}
+db = firebase.database();
+ref = db.ref("scores");
 
 function writeData() {
-	if (userExists(name)) {
-		firebase.database().ref("User").update({
-			name: {
-				name: name,
-				score: positions.length
-			}
-		});	
-	} else {
-		alert("user does not exist");
-		firebase.database().ref("User").push({
-			name: {
-				name: name,
-				score: positions.length
-			}
-		});
+	// db.ref("scores").push({
+	// 	name: name,
+	// 	score: positions.length
+	// });
+
+	console.log(exists(name));
+
+	var data = {
+		name: name,
+		score: positions.length
 	}
+
+
+	ref.push(data);
+}
+
+function exists(name) {
+	ref.on("value", function(snapshot) {
+		snapshot.forEach(function(childSnapshot) {
+			var data = childSnapshot.val();
+			return data.name === name;
+		});
+	})
+	return false;
 }
 
 function readData() {
-	firebase.database().ref("/").once("value", function(snapshot) {
-		snapshot.forEach(function(childSnapshot)
-		{
-			var childKey = childSnapshot.key;
-			var childData = childSnapshot.val();
-			alert("name: " + childData["name"] + ", " + childData["score"]);
-		})
+	ref.on("value", function(snapshot) {
+		snapshot.forEach(function(childSnapshot) {
+			var data = childSnapshot.val();
+			console.log(data);
+		});
 	})
 }
 
@@ -65,8 +66,8 @@ var edge = 20;
 var name = "";
 
 // parameters of the apple
-var appleX = 100;
-var appleY = 100;
+var appleX = -1;
+var appleY = -1;
 
 // holds each new position of the snake after eating the apple
 var positions = [];
@@ -85,6 +86,8 @@ window.onload = function() { // when the page loads
 	window.addEventListener('keydown', keyInput, false);
 
 	name = window.prompt("Enter your name: ");
+
+	updateApple();
 
 	// run 30 frames per second
 	var framesPerSecond = 30;
@@ -175,10 +178,7 @@ function reset() { // reset the location of the snake
 	ySpeed = 0;
 
 	// have a defined location for the apple
-	appleX = 100;
-	appleY = 100;
-
-	// it will not be moving
+	updateApple();
 }
 
 function updateApple() { // create a new location for an apple
@@ -187,7 +187,7 @@ function updateApple() { // create a new location for an apple
 	var upperBoundX = (canvas.width - edge) / edge;
 
 	var lowerBoundY = 1;
-	var upperBoundY = (canvas.height - edge - 4) / edge;
+	var upperBoundY = (canvas.height - edge) / edge;
 
 	// randomly set a location within those given bounds
 	appleX = Math.floor(Math.random() * (upperBoundX - lowerBoundX) + lowerBoundX) * edge;
@@ -214,14 +214,14 @@ function drawAll() { // update the location of everything in the canvas
 	// borders
 	colorRect(0, 0, canvas.width, edge, 'white');
 	colorRect(0, 0, edge, canvas.height, 'white');
-	colorRect(0, canvas.height - edge - 4, canvas.width, edge + 4, 'white');
+	colorRect(0, canvas.height - edge, canvas.width, edge, 'white');
 	colorRect(canvas.width - edge, 0, edge, canvas.height, 'white');
 
 	// apple
-	colorSquare(appleX, appleY, edge, 'grey', 'grey');
+	colorSquare(appleX, appleY, edge, 'red', 'red');
 
 	// score
-	colorText(positions.length + "", canvas.width / 2, canvas.height - 10, 'black');
+	colorText(positions.length + "", canvas.width / 2, canvas.height - 5, 'black');
 }
 
 function isLegal() { // check if the given location of the snake is legal
@@ -238,7 +238,7 @@ function isLegal() { // check if the given location of the snake is legal
 		return false;
 	}
 
-	if (yPos + edge > canvas.height - edge - 4) {
+	if (yPos + edge > canvas.height - edge) {
 		return false;
 	}
 
@@ -271,4 +271,5 @@ function colorRect(topLeftX,topLeftY, boxWidth,boxHeight, fillColor) {
 function colorText(showWords, textX,textY, fillColor) {
 	canvasContext.fillStyle = fillColor;
 	canvasContext.fillText(showWords, textX, textY);
+	canvasContext.font = "15px Arial";
 }
