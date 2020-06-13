@@ -15,41 +15,28 @@ firebase.analytics();
 
 db = firebase.database();
 ref = db.ref("scores");
+highScore = 0;
+best = "";
 
 function writeData() {
-	// db.ref("scores").push({
-	// 	name: name,
-	// 	score: positions.length
-	// });
-
-	console.log(exists(name));
-
-	var data = {
-		name: name,
-		score: positions.length
+	if (highScore < positions.length) {
+		ref.remove();
+		ref.push({
+			name: name,
+			score: positions.length
+		})	
 	}
-
-
-	ref.push(data);
 }
 
-function exists(name) {
-	ref.on("value", function(snapshot) {
-		snapshot.forEach(function(childSnapshot) {
-			var data = childSnapshot.val();
-			return data.name === name;
-		});
-	})
-	return false;
+function errData(err) {
+	console.log("Error!");
 }
 
-function readData() {
-	ref.on("value", function(snapshot) {
-		snapshot.forEach(function(childSnapshot) {
-			var data = childSnapshot.val();
-			console.log(data);
-		});
-	})
+function gotData(data) {
+	var scores = data.val();
+	var keys = Object.keys(scores);
+	highScore = scores[keys[0]].score;
+	best = scores[keys[0]].name;
 }
 
 // define the canvas
@@ -92,6 +79,7 @@ window.onload = function() { // when the page loads
 	// run 30 frames per second
 	var framesPerSecond = 30;
 	setInterval(updateAll, 1000/framesPerSecond);
+	ref.on("value", gotData, errData);
 }
 
 function keyInput(event) { // key events to control the direction of the snake
@@ -165,9 +153,7 @@ function moveAll() { // update the speed of the snake
 }
 
 function reset() { // reset the location of the snake
-	if (positions.length > 5) {
-		writeData();
-	}
+	writeData();
 
 	// set the length of the snake back to 1
 	positions = new Array();
@@ -222,6 +208,9 @@ function drawAll() { // update the location of everything in the canvas
 
 	// score
 	colorText(positions.length + "", canvas.width / 2, canvas.height - 5, 'black');
+
+	// high score
+	colorText("high score: " + best + ", " + highScore, canvas.width / 2 + 50, canvas.height - 5, 'black');
 }
 
 function isLegal() { // check if the given location of the snake is legal
