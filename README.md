@@ -52,4 +52,8 @@ Technologies Used (for my contribution): Cosmos DB, Power BI, DAX.
 
 **Lights**  
 Voice-activated Lights.  
-Technologies Used: Amazon Echo, Particle Photon, WS2813 LED Strip, IFTTT, C++.
+Technologies Used: Amazon Echo, Particle Photon, WS2813 LED Strip, IFTTT, C++.  
+
+**Algorithms**  
+Various Computational Algorithms.  
+Technologies Used: Java, Eclipse, JUnit.  
