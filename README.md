@@ -57,3 +57,6 @@ Technologies Used: Amazon Echo, Particle Photon, WS2813 LED Strip, IFTTT, C++.
 **Algorithms**  
 Various Computational Algorithms.  
 Technologies Used: Java, Eclipse, JUnit.  
+
+# Certifications
+**Microsoft Certified: Azure Fundamentals** - August 2020  
