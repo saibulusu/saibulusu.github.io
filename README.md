@@ -23,6 +23,12 @@ Concepts Covered: R, R Studio.
 **Machine Organization and Programming** - Professor Jim Skrentny - Fall 2019  
 Concepts Covered: C, Assembly Language, Caches, Memory Management, Heap Allocation.  
 
+**Introduction to Combinatorics** - Professor Balazs Boros - Fall 2019  
+Concepts Covered: Permutations, Combinations, Partial Orders, Polya Counting, Generating Functions, Stirling Numbers.  
+
+**Elementary Matrix and Linear Algebra** - Professor Autum Exum Kent - Fall 2018  
+Concepts Covered: Linear Equations, Matrices, Real Vector Spaces, Linear Transformations, Eigenvalues, Cauchy-Schwarz.  
+
 # Projects
 **SMBIOS Parser**  
 Windows Command Line tool to parse the SMBIOS Table. Can view each structure in the table and metadata about the structure, as seen in the [specification](https://www.dmtf.org/sites/default/files/standards/documents/DSP0134_3.0.0.pdf).  
