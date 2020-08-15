@@ -44,6 +44,6 @@ Technologies Used: C, Vim, tmux.
 Created a dashboard and managed the database for an app that analyzes a picture of people during a pandemic and determines a safety score based on the number of people who wore a mask.  
 Technologies Used (for my contribution): Cosmos DB, Power BI, DAX.  
 
-**Lights**
+**Lights**  
 Voice-activated Lights.  
 Technologies Used: Amazon Echo, Particle Photon, WS2813 LED Strip, IFTTT, C++.
