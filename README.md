@@ -1,5 +1,5 @@
 # About
-I'm a Junior at the University of Wisconsin-Madison where I am majoring Computer Science and Mathematics. I have taken coursework in Computer Sciences, Mathematics, and Computer Engineering. Within Computer Science, I am very interested in Databases and Systems.
+I'm a Junior at the University of Wisconsin-Madison where I am majoring in Computer Science and Mathematics. I have taken coursework in Computer Sciences, Mathematics, and Computer Engineering. Within Computer Science, I am very interested in Databases and Systems.
 
 # Experience
 **Microsoft** - Software Engineer Intern - Summer 2020  
@@ -25,4 +25,21 @@ Concepts Covered: C, Assembly Language, Caches, Memory Management, Heap Allocati
 
 # Projects
 **SMBIOS Parser**  
-Windows Command Line tool to parse the SMBIOS Table. Can view each structure in the table and metadata about the structure, as seen in the [specification](https://www.dmtf.org/sites/default/files/standards/documents/DSP0134_3.0.0.pdf).
+Windows Command Line tool to parse the SMBIOS Table. Can view each structure in the table and metadata about the structure, as seen in the [specification](https://www.dmtf.org/sites/default/files/standards/documents/DSP0134_3.0.0.pdf).  
+Technologies Used: C++, Visual Studio.
+
+**MapReduce** - Introduction to Operating Systems  
+Implementation of the framework for MapReduce, which parses many large files using multithreading and locks.  
+Technologies Used: C, Vim, tmux.
+
+**File System Checker** - Introduction to Operating Systems with Rehan Madhugiri  
+Implemented a file system checker for the xv6 operating system. Extra features include revisions made to the file system image in order to restore consistency.  
+Technologies Used: C, Vim, tmux.
+
+**Smash** - Introduction to Operating Systems  
+Implementation of a shell that provides sequential and parallel commands, denoted by ; and & respectively.  
+Technologies Used: C, Vim, tmux.
+
+**Maskon-Maskoff** - Microsoft Intern Hack for Social good with JP Ungaretti, Linda Zhao, and Amber Li.  
+Created a dashboard and managed the database for an app that analyzes a picture of people during a pandemic and determines a safety score based on the number of people who wore a mask.  
+Technologies Used (by me): Cosmos DB, Power BI, DAX.  
