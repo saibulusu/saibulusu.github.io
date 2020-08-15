@@ -24,5 +24,5 @@ Concepts Covered: R, R Studio.
 Concepts Covered: C, Assembly Language, Caches, Memory Management, Heap Allocation.  
 
 # Projects
-**SMBIOS Parser**
+**SMBIOS Parser**  
 Windows Command Line tool to parse the SMBIOS Table. Can view each structure in the table and metadata about the structure, as seen in the [specification](https://www.dmtf.org/sites/default/files/standards/documents/DSP0134_3.0.0.pdf).
