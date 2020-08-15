@@ -42,4 +42,8 @@ Technologies Used: C, Vim, tmux.
 
 **Maskon-Maskoff** - Microsoft Intern Hack for Social good - JP Ungaretti, Linda Zhao, and Amber Li  
 Created a dashboard and managed the database for an app that analyzes a picture of people during a pandemic and determines a safety score based on the number of people who wore a mask.  
-Technologies Used (by me): Cosmos DB, Power BI, DAX.  
+Technologies Used (for my contribution): Cosmos DB, Power BI, DAX.  
+
+**Lights**
+Voice-activated Lights.  
+Technologies Used: Amazon Echo, Particle Photon, WS2813 LED Strip, IFTTT, C++.
