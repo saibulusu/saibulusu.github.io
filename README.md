@@ -2,13 +2,9 @@
 I'm a Junior at the University of Wisconsin-Madison where I am majoring in Computer Science and Mathematics. I have taken coursework in Computer Sciences, Mathematics, and Computer Engineering. Within Computer Science, I am very interested in Databases and Systems.
 
 # Experience
-**Microsoft** - Software Engineer Intern - Summer 2020  
-Gathered data regarding storage drives in Azure's fleet. Developed an analytics dashboard which displayed the relevant statistics from the data I pulled, while focusing on keeping the dashboard interactive and intuitive for our engineers.  
-Technologies Used: Kusto, KQL, Power BI, DAX, Power Automate (Flow).  
-  
-**Peeka VR** - Software Intern - Summer 2019  
-Maintained and updated information relevant to our database. Primarily worked with promo codes and preparing analytics.  
-Technologies Used: AWS, DynamoDB.  
+**Microsoft** - Software Engineer Intern - May 2020 to August 2020  
+
+**Peeka VR** - Software Intern - June 2020 to August 2020  
 
 # Coursework
 **Introduction to Operating Systems** - Professor Shivaram Venkataraman - Spring 2020  
@@ -30,7 +26,11 @@ Concepts Covered: Permutations, Combinations, Partial Orders, Polya Counting, Ge
 Concepts Covered: Linear Equations, Matrices, Real Vector Spaces, Linear Transformations, Eigenvalues, Cauchy-Schwarz.  
 
 # Projects
-**SMBIOS Parser**  
+**Azure Storage Drives Statistics Dashboard** - Microsoft Internship  
+Gathered data regarding storage drives in Azure's fleet. Developed an analytics dashboard which displayed the relevant statistics from the data I pulled, while focusing on keeping the dashboard interactive and intuitive for our engineers.  
+Technologies Used: Kusto, KQL, Power BI, DAX, Power Automate (Flow).  
+
+**SMBIOS Parser** - Personal Project  
 Windows Command Line tool to parse the SMBIOS Table. Can view each structure in the table and metadata about the structure, as seen in the [specification](https://www.dmtf.org/sites/default/files/standards/documents/DSP0134_3.0.0.pdf).  
 Technologies Used: C++, Visual Studio.
 
@@ -50,11 +50,11 @@ Technologies Used: C, Vim, tmux.
 Created a dashboard and managed the database for an app that analyzes a picture of people during a pandemic and determines a safety score based on the number of people who wore a mask.  
 Technologies Used (for my contribution): Cosmos DB, Power BI, DAX.  
 
-**Lights**  
+**Lights** - Personal Project  
 Voice-activated Lights.  
 Technologies Used: Amazon Echo, Particle Photon, WS2813 LED Strip, IFTTT, C++.  
 
-**Algorithms**  
+**Algorithms** - Personal Project  
 Various Computational Algorithms.  
 Technologies Used: Java, Eclipse, JUnit.  
 
