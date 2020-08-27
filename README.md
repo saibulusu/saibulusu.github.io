@@ -27,7 +27,7 @@ Concepts Covered: Linear Equations, Matrices, Real Vector Spaces, Linear Transfo
 
 # Projects
 **Azure Storage Drives Statistics Dashboard** - Microsoft Internship  
-Gathered data regarding storage drives in Azure's fleet. Developed an analytics dashboard which displayed the relevant statistics from the data I pulled, while focusing on keeping the dashboard interactive and intuitive for our engineers.  
+Created an analytics dashboard to display relevant statistics regarding storage drives in Azure's fleet.  
 Technologies Used: Kusto, KQL, Power BI, DAX, Power Automate (Flow).  
 
 **SMBIOS Parser** - Personal Project  
