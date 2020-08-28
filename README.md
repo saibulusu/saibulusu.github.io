@@ -30,7 +30,7 @@ Concepts Covered: Linear Equations, Matrices, Real Vector Spaces, Linear Transfo
 Created an analytics dashboard to display relevant statistics regarding storage drives in Azure's fleet.  
 Technologies Used: Kusto, KQL, Power BI, DAX, Power Automate (Flow).  
 
-**SMBIOS Parser** - Personal Project  
+[**SMBIOS Parser**](https://saibulusu.github.io/SMBIOS-Parser/) - Personal Project  
 Windows Command Line tool to parse the SMBIOS Table. Can view each structure in the table and metadata about the structure, as seen in the [specification](https://www.dmtf.org/sites/default/files/standards/documents/DSP0134_3.0.0.pdf).  
 Technologies Used: C++, Visual Studio.
 
@@ -50,11 +50,11 @@ Technologies Used: C, Vim, tmux.
 Created a dashboard and managed the database for an app that analyzes a picture of people during a pandemic and determines a safety score based on the number of people who wore a mask.  
 Technologies Used (for my contribution): Cosmos DB, Power BI, DAX.  
 
-**Lights** - Personal Project  
+[**Lights**](https://saibulusu.github.io/Lights/) - Personal Project  
 Voice-activated Lights.  
 Technologies Used: Amazon Echo, Particle Photon, WS2813 LED Strip, IFTTT, C++.  
 
-**Algorithms** - Personal Project  
+[**Algorithms**](https://saibulusu.github.io/Algorithms/) - Personal Project  
 Various Computational Algorithms.  
 Technologies Used: Java, Eclipse, JUnit.  
 
