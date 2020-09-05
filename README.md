@@ -7,6 +7,12 @@ I'm a Junior at the University of Wisconsin-Madison where I am majoring in Compu
 **Peeka VR** - Software Intern - June 2020 to August 2020  
 
 # Coursework
+**Introduction to Algorithms** - Professor Dieter Van Melkebeek - Fall 2020  
+
+**Introduction to AI** - Professors Daifeng Whang, Anthony Gitter, Yin Li - Fall 2020 
+
+**Theory of Single Variable Calculus** - Professor Antoine Remond Tiedrez - Fall 2020
+
 **Introduction to Operating Systems** - Professor Shivaram Venkataraman - Spring 2020  
 Concepts Covered: Operating Systems structure, Process and Thread synchronization and concurrency, File systems and storage servers, Memory management techniques, Process scheduling and resource management, and Virtualization.  
 
