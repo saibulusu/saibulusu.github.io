@@ -2,6 +2,8 @@
 I'm a Junior at the University of Wisconsin-Madison where I am majoring in Computer Science and Mathematics. I have taken coursework in Computer Sciences, Mathematics, and Computer Engineering. Within Computer Science, I am very interested in Databases and Systems.
 
 # Experience
+**UW-Madison CS** - Undergraduate Research Assistant - September 2020 to Present  
+
 **Microsoft** - Software Engineer Intern - May 2020 to August 2020  
 
 **Peeka VR** - Software Intern - June 2020 to August 2020  
