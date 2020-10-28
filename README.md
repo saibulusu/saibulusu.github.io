@@ -1,5 +1,7 @@
 # About
-I'm a Junior at the University of Wisconsin-Madison where I am majoring in Computer Science and Mathematics. I have taken coursework in Computer Sciences, Mathematics, and Computer Engineering. Within Computer Science, I am very interested in Databases and Systems.
+I'm a Junior at the University of Wisconsin-Madison where I am majoring in Computer Science and Mathematics. I have taken coursework in Computer Sciences, Mathematics, and Computer Engineering. My relevant experience, personal projects, coursework, and technical skills are all listed on this page.
+
+Currently, I'm working on a research project with Professor Remzi Arpaci-Dusseau in the area of Systems and Databases.
 
 # Experience
 **UW-Madison CS** - Undergraduate Research Assistant - September 2020 to Present  
