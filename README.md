@@ -11,13 +11,13 @@ Currently, I'm working on a research project with Professor Remzi Arpaci-Dusseau
 **Peeka VR** - Software Intern - June 2020 to August 2020  
 
 # Coursework
-**Introduction to Algorithms** - Professor Dieter Van Melkebeek - Fall 2020 
+**Introduction to Algorithms** - Professor Dieter Van Melkebeek - Fall 2020  
 Divide and Conquer, Dynamic Programming, Greed, Network Flow, Computational Reduction, P vs NP.
 
-**Introduction to AI** - Professors Daifeng Whang, Anthony Gitter, Yin Li - Fall 2020 
+**Introduction to AI** - Professors Daifeng Whang, Anthony Gitter, Yin Li - Fall 2020  
 Search, Mathematical Foundation of AI, Game Theory, Machine Learning, Applications.
 
-**Theory of Single Variable Calculus** - Professor Antoine Remond Tiedrez - Fall 2020 
+**Theory of Single Variable Calculus** - Professor Antoine Remond Tiedrez - Fall 2020  
 Functions, Sets, Epsilon-Delta, Continuous Functions, Theorems, Chain Rule, Riemann Integral, Proofs. 
 
 **Introduction to Operating Systems** - Professor Shivaram Venkataraman - Spring 2020  
