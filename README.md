@@ -11,29 +11,32 @@ Currently, I'm working on a research project with Professor Remzi Arpaci-Dusseau
 **Peeka VR** - Software Intern - June 2020 to August 2020  
 
 # Coursework
-**Introduction to Algorithms** - Professor Dieter Van Melkebeek - Fall 2020  
+**Introduction to Algorithms** - Professor Dieter Van Melkebeek - Fall 2020 
+Divide and Conquer, Dynamic Programming, Greed, Network Flow, Computational Reduction, P vs NP.
 
 **Introduction to AI** - Professors Daifeng Whang, Anthony Gitter, Yin Li - Fall 2020 
+Search, Mathematical Foundation of AI, Game Theory, Machine Learning, Applications.
 
-**Theory of Single Variable Calculus** - Professor Antoine Remond Tiedrez - Fall 2020
+**Theory of Single Variable Calculus** - Professor Antoine Remond Tiedrez - Fall 2020 
+Functions, Sets, Epsilon-Delta, Continuous Functions, Theorems, Chain Rule, Riemann Integral, Proofs. 
 
 **Introduction to Operating Systems** - Professor Shivaram Venkataraman - Spring 2020  
-Concepts Covered: Operating Systems structure, Process and Thread synchronization and concurrency, File systems and storage servers, Memory management techniques, Process scheduling and resource management, and Virtualization.  
+Operating Systems structure, Process and Thread synchronization and concurrency, File systems and storage servers, Memory management techniques, Process scheduling and resource management, and Virtualization.  
 
 **Digital Systems Fundamentals** - Professors Eric Hoffman & Kassem Fawaz - Spring 2020  
-Concepts Covered: Boolean Algebra, Gates, Combinational Structures, Logic Functions, Adders, Sequential Circuits, Finite State Machines, Flip-flops, Registers.  
+Boolean Algebra, Gates, Combinational Structures, Logic Functions, Adders, Sequential Circuits, Finite State Machines, Flip-flops, Registers.  
 
 **Data Programming in R** - Professor Bret Larget - Spring 2020  
-Concepts Covered: R, R Studio.  
+R, R Studio.  
 
 **Machine Organization and Programming** - Professor Jim Skrentny - Fall 2019  
-Concepts Covered: C, Assembly Language, Caches, Memory Management, Heap Allocation.  
+C, Assembly Language, Caches, Memory Management, Heap Allocation.  
 
 **Introduction to Combinatorics** - Professor Balazs Boros - Fall 2019  
-Concepts Covered: Permutations, Combinations, Partial Orders, Polya Counting, Generating Functions, Stirling Numbers.  
+Permutations, Combinations, Partial Orders, Polya Counting, Generating Functions, Stirling Numbers.  
 
 **Elementary Matrix and Linear Algebra** - Professor Autum Exum Kent - Fall 2018  
-Concepts Covered: Linear Equations, Matrices, Real Vector Spaces, Linear Transformations, Eigenvalues, Cauchy-Schwarz.  
+Linear Equations, Matrices, Real Vector Spaces, Linear Transformations, Eigenvalues, Cauchy-Schwarz.  
 
 # Projects
 **Azure Storage Drives Statistics Dashboard** - Microsoft Internship  
