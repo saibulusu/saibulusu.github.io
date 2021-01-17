@@ -11,6 +11,12 @@ Currently, I'm working on a research project with Professor Remzi Arpaci-Dusseau
 **Peeka VR** - Software Intern - June 2020 to August 2020  
 
 # Coursework
+**Introduction to Databases** - Professor Xiangyao Yu  
+
+**Introduction to Compilers** - Professor Loris D'antoni  
+
+**Real Analysis** - Professor David Beltran Portales  
+
 **Introduction to Algorithms** - Professor Dieter Van Melkebeek - Fall 2020  
 Divide and Conquer, Dynamic Programming, Greed, Network Flow, Computational Reduction, P vs NP.
 
@@ -51,7 +57,7 @@ Technologies Used: C++, Visual Studio.
 Implementation of the framework for MapReduce, which parses many large files using multithreading and locks.  
 Technologies Used: C, Vim, tmux.
 
-**File System Checker** - Introduction to Operating Systems - Rehan Madhugiri  
+**File System Checker** - Introduction to Operating Systems - with Rehan Madhugiri  
 Implemented a file system checker for the xv6 operating system. Extra features include revisions made to the file system image in order to restore consistency.  
 Technologies Used: C, Vim, tmux.
 
@@ -59,7 +65,7 @@ Technologies Used: C, Vim, tmux.
 Implementation of a shell that provides sequential and parallel commands, denoted by ; and & respectively.  
 Technologies Used: C, Vim, tmux.
 
-**Maskon-Maskoff** - Microsoft Intern Hack for Social good - JP Ungaretti, Linda Zhao, and Amber Li  
+**Maskon-Maskoff** - Microsoft Intern Hack for Social good - with JP Ungaretti, Linda Zhao, and Amber Li  
 Created a dashboard and managed the database for an app that analyzes a picture of people during a pandemic and determines a safety score based on the number of people who wore a mask.  
 Technologies Used (for my contribution): Cosmos DB, Power BI, DAX.
 
