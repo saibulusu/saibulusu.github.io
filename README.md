@@ -65,7 +65,7 @@ Technologies Used: C, Vim, tmux.
 Implementation of a shell that provides sequential and parallel commands, denoted by ; and & respectively.  
 Technologies Used: C, Vim, tmux.
 
-**Maskon-Maskoff** - Microsoft Intern Hack for Social good - with JP Ungaretti, Linda Zhao, and Amber Li  
+**Maskon-Maskoff** - Microsoft Intern Hack for Social good - with JP Ungaretti, Linda Zhao, Amber Li  
 Created a dashboard and managed the database for an app that analyzes a picture of people during a pandemic and determines a safety score based on the number of people who wore a mask.  
 Technologies Used (for my contribution): Cosmos DB, Power BI, DAX.
 
