@@ -11,22 +11,22 @@ Currently, I'm working on a research project with Professor Remzi Arpaci-Dusseau
 **Peeka VR** - Software Intern - June 2020 to August 2020  
 
 # Coursework
-**Introduction to Databases** - Professor Xiangyao Yu  
+**Database Management Systems** - Professor Xiangyao Yu  
 
-**Introduction to Compilers** - Professor Loris D'antoni  
+**Programming Languages and Compilers** - Professor Loris D'antoni  
 
 **Real Analysis** - Professor David Beltran Portales  
 
-**Introduction to Algorithms** - Professor Dieter Van Melkebeek - Fall 2020  
+**Algorithms** - Professor Dieter Van Melkebeek - Fall 2020  
 Divide and Conquer, Dynamic Programming, Greed, Network Flow, Computational Reduction, P vs NP.
 
-**Introduction to AI** - Professors Daifeng Whang, Anthony Gitter, Yin Li - Fall 2020  
+**AI** - Professors Daifeng Whang, Anthony Gitter, Yin Li - Fall 2020  
 Search, Mathematical Foundation of AI, Game Theory, Machine Learning, Applications.
 
 **Theory of Single Variable Calculus** - Professor Antoine Remond Tiedrez - Fall 2020  
 Functions, Sets, Epsilon-Delta, Continuous Functions, Theorems, Chain Rule, Riemann Integral, Proofs. 
 
-**Introduction to Operating Systems** - Professor Shivaram Venkataraman - Spring 2020  
+**Operating Systems** - Professor Shivaram Venkataraman - Spring 2020  
 Operating Systems structure, Process and Thread synchronization and concurrency, File systems and storage servers, Memory management techniques, Process scheduling and resource management, and Virtualization.  
 
 **Digital Systems Fundamentals** - Professors Eric Hoffman & Kassem Fawaz - Spring 2020  
@@ -38,7 +38,7 @@ R, R Studio.
 **Machine Organization and Programming** - Professor Jim Skrentny - Fall 2019  
 C, Assembly Language, Caches, Memory Management, Heap Allocation.  
 
-**Introduction to Combinatorics** - Professor Balazs Boros - Fall 2019  
+**Combinatorics** - Professor Balazs Boros - Fall 2019  
 Permutations, Combinations, Partial Orders, Polya Counting, Generating Functions, Stirling Numbers.  
 
 **Elementary Matrix and Linear Algebra** - Professor Autum Exum Kent - Fall 2018  
