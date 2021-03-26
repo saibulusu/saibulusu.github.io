@@ -13,8 +13,6 @@ Currently, I'm working on a research project with Professor Remzi Arpaci-Dusseau
 # Coursework
 **Database Management Systems** - Professor Xiangyao Yu  
 
-**Programming Languages and Compilers** - Professor Loris D'antoni  
-
 **Real Analysis** - Professor David Beltran Portales  
 
 **Algorithms** - Professor Dieter Van Melkebeek - Fall 2020  
