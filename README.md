@@ -11,9 +11,11 @@ Currently, I'm working on a research project with Professor Remzi Arpaci-Dusseau
 **Peeka VR** - Software Intern - June 2020 to August 2020  
 
 # Coursework
-**Database Management Systems** - Professor Xiangyao Yu  
+**Database Management Systems** - Professor Xiangyao Yu - Spring 2021  
+Entity Relationship Model, Relational Model, SQL, File Organization, Various Indexing Methods.
 
-**Real Analysis** - Professor David Beltran Portales  
+**Real Analysis** - Professor David Beltran Portales - Spring 2021  
+The real numbers, elements of set theory, metric spaces and basic topology, sequences and series, limits, continuity, differentiation, integration, sequences and series of functions, uniform convergence.
 
 **Algorithms** - Professor Dieter Van Melkebeek - Fall 2020  
 Divide and Conquer, Dynamic Programming, Greed, Network Flow, Computational Reduction, P vs NP.
