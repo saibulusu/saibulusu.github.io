@@ -14,6 +14,7 @@
             margin-right: 25%;
             margin-top: 1%;
             margin-bottom: 1%;
+			background-color: #fdf6e3;
         }
         #banner {
             text-align: center;
@@ -25,21 +26,25 @@
         }
         #map a {
             text-decoration: none;
+			color: blue;
         }
         .jobs {
             overflow: hidden;
-            margin-bottom: 3%;
+            margin-bottom: 1%;
         }
         .jobs img {
             float: left;
-            width: 13%;
-            height: 13%;
+            width: 9%;
+            height: 9%;
             margin-top: 2%;
-            margin-right: 3%;
+            margin-right: 2%;
         }
         .jobs p {
-            margin-top: 1%;
-        }
+        	margin-top: 1%;
+		}
+		.section {
+			color: blue;
+		}
     </style>
     <body>
         <div id="banner">
@@ -55,32 +60,27 @@
         </div>
         <div id="about">
             <hr>
-            <p>I’m a Junior at the University of Wisconsin-Madison where I am majoring in Computer Science and Mathematics.
+			<h4 class="section">About</h4>
+			<p>I’m a Junior at the University of Wisconsin-Madison where I am majoring in Computer Science and Mathematics.
             I have taken coursework in Computer Sciences, Mathematics, and Computer Engineering. My relevant experience,
             personal projects, coursework, and technical skills are all listed on this page.
         </div>
         <div id="experience">
             <hr>
+			<h4 class="section">Experience</h4>
             <div class="jobs">
-                <img src="images/wisconsin.jpeg" title="UW-Madison">
-                <p>September 2020 to Present
-                <p>Undergraduate Research for Professor Remzi Arpaci-Dusseau in Learned Indexes. Falls in the area of
-                Systems and Databases.
+				<p><strong>UW-Madison</strong><br>September 2020 to Present<br>Undergraduate Research for Professor Remzi Arpaci-Dusseau in Learned Indexes. Falls in the area of Systems and Databases.
             </div>
             <div class="jobs">
-                <img src="images/microsoft.png" title="Microsoft">
-                <p>May 2020 to August 2020
-                <p>Software Engineer Intern in Azure CHIE Memory and Storage. Worked on a dashboard to display relevant
-                Azure Storage Drives Statistics.
+				<p><strong>Microsoft</strong><br>May 2020 to August 2020<br>Software Engineer Intern in Azure CHIE Memory and Storage. Worked on a dashboard to display relevant Azure Storage Drives Statistics.
             </div>
             <div class="jobs">
-                <img src="images/peeka.png" title="Peeka VR">
-                <p>June 2019 to August 2019
-                <p>Software Intern. Worked on promo codes and learned about the database using AWS Dynamo DB.
+				<p><strong>Peeka VR</strong><br>June 2019 to August 2019<br>Software Intern. Worked on promo codes and learned about the database using AWS Dynamo DB.
             </div>
         </div>
         <div id="course">
             <hr>
+			<h4 class="section">Courses</h4>
             <div class="classes">
                 <p><strong>Databases</strong>: SQL, Relational Database Management Schemas, Buffers, B-Trees.
                 <p><strong>Real Analysis</strong>: Real Numbers, Calculus of Limits, Sequences, Open/Closed sets.
