@@ -10,8 +10,8 @@
     </head>
     <style>
         body {
-            margin-left: 30%;
-            margin-right: 30%;
+            margin-left: 25%;
+            margin-right: 25%;
             margin-top: 1%;
             margin-bottom: 1%;
         }
@@ -26,6 +26,16 @@
         #map a {
             text-decoration: none;
         }
+        .jobs {
+            overflow: hidden;
+            margin-bottom: 3%;
+        }
+        .jobs img {
+            float: left;
+            width: 15%;
+            height: 15%;
+            margin-right: 3%;
+        }
     </style>
     <body>
         <div id="banner">
@@ -33,21 +43,51 @@
         <h4>CS + Math @ UW-Madison</h4>
         </div>
         <div id="map">
-            <h3><a href="#about">About</a></h3>
-            <h3><a href="#experience">Experience</a></h3>
-            <h3><a href="#course">Coursework</a></h3>
-            <h3><a href="#read">Read</a></h3>
-            <h3><a href="https://www.overleaf.com/read/cjjggbrqzxsp">Resume</a></h3>
+            <h4><a href="#about">About</a></h4>
+            <h4><a href="#experience">Experience</a></h4>
+            <h4><a href="#course">Coursework</a></h4>
+            <h4><a href="#read">Read</a></h4>
+            <h4><a href="https://www.overleaf.com/read/cjjggbrqzxsp">Resume</a></h4>
         </div>
         <div id="about">
             <hr>
             <p>I’m a Junior at the University of Wisconsin-Madison where I am majoring in Computer Science and Mathematics.
             I have taken coursework in Computer Sciences, Mathematics, and Computer Engineering. My relevant experience,
             personal projects, coursework, and technical skills are all listed on this page.
-            <p>Currently, I'm working on a research project for Professor Remzi Arpaci-Dusseau in Learned Indexes.
         </div>
         <div id="experience">
             <hr>
+            <div class="jobs">
+                <img src="images/wisconsin.jpeg" title="UW-Madison">
+                <p>September 2020 to Present
+                <p>Undergraduate Research for Professor Remzi Arpaci-Dusseau in Learned Indexes. Falls in the area of
+                Systems and Databases.
+            </div>
+            <div class="jobs">
+                <img src="images/microsoft.png" title="Microsoft">
+                <p>May 2020 to August 2020
+                <p>Software Engineer Intern in Azure CHIE Memory and Storage. Worked on a dashboard to display relevant
+                Azure Storage Drives Statistics.
+            </div>
+            <div class="jobs">
+                <img src="images/peeka.png" title="Peeka VR">
+                <p>June 2019 to August 2019
+                <p>Software Intern. Worked on promo codes and learned about the database using AWS Dynamo DB.
+            </div>
+        </div>
+        <div id="course">
+            <hr>
+            <div class="classes">
+                <p><strong>Databases</strong>: SQL, Relational Database Management Schemas, Buffers, B-Trees.
+                <p><strong>Real Analysis</strong>: Real Numbers, Calculus of Limits, Sequences, Open/Closed sets.
+                <p><strong>Algorithms</strong>: Divide and Conquer, Dynamic Programming, Greed, Graph, P vs NP.
+                <p><strong>AI</strong>: Linear Regression, Neural Networks, K-means Clustering, MiniMax Algorithm.
+                <p><strong>MLOS</strong>: Machine Learning Optimized Systems seminar.
+                <p><strong>Operating Systems</strong>: Virtualization, Concurrency, Persistence, C, Mapreduce.
+                <p><strong>Digital Systems Fundamentals</strong>: Combinational Logic, Digital Subsystems, Computer
+                Organization.
+                <p><strong>C++</strong>: C++ Programming basics.
+                <p><strong>Data Programming in R</strong>: R, RStudio.
         </div>
     </body>
 </html>
